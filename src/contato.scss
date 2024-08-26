@@ -1,0 +1,57 @@
+.contato {
+    background-color: #DFDFDF;
+    padding: 70px 0;
+
+    &__title {
+        color: #656260;
+        font-size: 40px;
+        margin-bottom: 60px;
+
+        &__link {
+            color: #494440;
+            transition: all .1s;
+            &:hover{
+                color: #999189;
+            }
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        gap: 5%;
+        justify-content: center;
+
+        &__item {
+            background-color: white;
+            height: 530px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 20px;
+
+            &__img {
+                height: 80px;
+
+            }
+
+            &__button {
+                background-color: #FF8200;
+                padding: 12px;
+                color: white;
+                text-decoration: none;
+                border-radius: 10px;
+                transition: all .2s;
+                &:hover{
+                    background-color: #f8a954;
+                }
+            }
+
+            &__title {
+                text-align: center;
+            }
+        }
+    }
+}

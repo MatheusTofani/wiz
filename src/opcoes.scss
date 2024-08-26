@@ -1,0 +1,42 @@
+.opcoes {
+    background-color: #FF8200;
+    padding: 70px 0;
+    &__title {
+        color: white;
+        font-size: 60px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            max-width: 300px;
+            padding: 30px;
+            border-radius: 50px;
+            max-height: 400px;
+
+            &__img {
+                height: 80px;
+                object-fit: contain;
+
+                &__center{
+                    margin: 40px 0;
+                }
+
+            }
+            &__text{
+                font-size: 20px;
+                margin-left: 200px;
+            }
+        }
+    }
+}
+
+#opcao_logo_2{
+    margin-top: 100px;
+    margin-left: -20px;
+}
